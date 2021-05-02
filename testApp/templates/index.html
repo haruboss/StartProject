@@ -1,6 +1,11 @@
 {% extends 'base.html' %}
 
 {% block body %}
+<a href="{% url 'testApp:advisor-create' %}">Create Advisor</a> |
+<a href="{% url 'testApp:advisor' %}">Advisor List</a> |
+ <a href="{% url 'testApp:create-user' %}">User Register</a> |
+ <a href="{% url 'testApp:advisor-booking' %}">Advisor Book</a> |
+ <a href="{% url 'testApp:advisor-boooking-list' %}">Advisor Booked List</a>
 
 
 
